@@ -1,0 +1,326 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, div, img {
+  display: block;
+ }
+   
+html, body, h1, h2, h3, ul, li, a, p, 
+article, aside, footer, header, main, nav, section {
+  padding: 0px;
+  margin: 0px;
+ }
+
+p {
+font-family: 'Roboto' , Arial, sans-serif;
+font-size: 14px;
+line-height: 19px;
+color: white;
+}
+
+.loginbody {
+  background-color: #023f69;
+  background-image: radial-gradient(#005894, #023f69);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  background-attachment: fixed;
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.loginbox {
+width: 300px;
+font-family: 'Roboto' , Arial, sans-serif;
+font-size: 16px;
+padding: 5px;
+display: block;
+border: 2px solid #c3c3c3;
+}
+
+.loginbox:focus {
+border: 2px solid #0088e4;
+}
+
+#logo2 {
+width: 312px;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+}
+
+#logo1 {
+width: 200px;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+.boxheild {
+width: 312px;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+.boxheild2 {
+width: 412px;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+.boxheild3 {
+width: 350px;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+.boxheild4 {
+padding: 20px 30px 20px 30px;
+border: 2px solid #d3d3d3;
+background-color: white;
+width: 490px;
+border-radius: 4px;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+.loginp {
+margin-bottom: 5px;
+}
+
+.umsognp {
+margin-bottom: 5px;
+text-align: left;
+}
+
+.logintakki {
+width: 90px;
+height: 30px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+cursor: pointer;
+color: white;
+background-color: #005894;
+border: 2px solid #d3d3d3;
+border-radius: 3px;
+font-family: 'Roboto' , Arial, sans-serif;
+font-size: 14px;
+}
+
+.logintakki:hover, .maetingtakki:hover, .stadfestatakki:hover {
+background-color: #023f69;
+}
+
+#innskraningtakki {
+margin-top: 5px;
+}
+
+.maetingtakki {
+width: 90px;
+height: 30px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+cursor: pointer;
+color: white;
+background-color: #005894;
+border: 2px solid #d3d3d3;
+border-radius: 3px;
+font-family: 'Roboto' , Arial, sans-serif;
+font-size: 14px;
+margin-top: 15px;
+}
+
+.stadfestatakki {
+width: 86px;
+height: 26px;
+display: block;
+cursor: pointer;
+color: white;
+background-color: #005894;
+border: 2px solid #d3d3d3;
+border-radius: 3px;
+font-family: 'Roboto' , Arial, sans-serif;
+font-size: 14px;
+margin-top: 20px;
+text-decoration: none;
+text-align: center;
+line-height: 28px;
+}
+
+#stadfesta {
+float: left;
+}
+
+#haettavid {
+float: right;
+}
+
+#takkaboxheild {
+width: 200px;
+height: 30px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.skradtakki {
+width: 86px;
+height: 26px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+cursor: pointer;
+color: white;
+background-color: #d81a1a;
+border: 2px solid white;
+border-radius: 3px;
+font-family: 'Roboto' , Arial, sans-serif;
+font-size: 14px;
+margin-top: 20px;
+text-decoration: none;
+text-align: center;
+line-height: 28px;
+}
+
+.skradtakki:hover {
+background-color: #b11111;
+}
+
+.loginheild {
+display: table-cell;
+vertical-align: middle;
+padding: 20px;
+}
+
+#umsognheild {
+display: table-cell;
+vertical-align: middle;
+padding: 20px;
+text-align: center;
+}
+
+#dagsetningbox {
+font-family: 'Roboto' , Arial, sans-serif;
+font-size: 14px;
+padding: 5px;
+width: 400px;
+height: auto;
+border: 2px solid #c3c3c3;
+}
+
+#dagsetningbox:focus {
+border: 2px solid #0088e4;
+}
+
+#umsognbox {
+font-family: 'Roboto' , Arial, sans-serif;
+font-size: 14px;
+padding: 5px;
+width: 400px;
+height: 300px;
+resize: none;
+margin-bottom: 15px;
+border: 2px solid #c3c3c3;
+}
+
+#umsognbox:focus {
+border: 2px solid #0088e4;
+}
+
+.maetingnofn {
+color: black;
+background-color: white;
+margin-bottom: 5px;
+padding: 3px 5px 3px 5px;
+border: 2px solid #c3c3c3;
+}
+
+.tekkad {
+background-color: #56c000;
+border: 2px solid white;
+color: white;
+}
+
+label {
+cursor: pointer;
+}
+
+#boxid {
+display: none;
+}
+
+.tekkmerki {
+height: 18px;
+width: auto;
+display: inline-block;
+float: right;
+}
+
+.tafla1 {
+margin-top: 12px;
+border: none;
+}
+
+.dalkur1 {
+width: 215px;
+padding: 7px 10px 7px 10px;
+background-color: #56c000;
+}
+
+.dalkur2 {
+width: 20px;
+}
+
+.dalkur3 {
+width: 215px;
+padding: 7px 10px 7px 10px;
+background-color: #d81a1a;
+}
+
+.f2 {
+color: white;
+font-size: 16px;
+font-weight: bold;
+letter-spacing: 0.3px;
+}
+
+.hr1 {
+height: 2px;
+border: none;
+background-color: white;
+color: white;
+margin: 3px 0px 3px 0px;
+}
+
+.leikmannalisti {
+color: white;
+font-family: 'Roboto', Arial, sans-serif;
+font-size: 14px;
+}
+
+.umsogntexti {
+margin-top: 10px;
+color: black;
+}
+
+.f1 {
+font-size: 22px;
+color: #023f69;
+font-family: 'Roboto', Arial, sans-serif;
+font-weight: 700;
+}
+
+.fyrirsogn1 {
+font-size: 22px;
+color: white;
+font-family: 'Roboto', Arial, sans-serif;
+font-weight: 700;
+text-align: center;
+}

@@ -1,0 +1,359 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, div {
+  display: block;
+ }
+   
+html, body, h1, h2, h3, ul, li, a, p, 
+article, aside, footer, header, main, nav, section {
+  padding: 0px;
+  margin: 0px;
+ }
+ 
+ html {
+ background-image: url("../img/bakgrunnur.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  background-attachment: fixed;
+ }
+ 
+ #banner {
+ background-color: #023f69;
+ background-image: linear-gradient(#014f84, #023f69);
+ position: fixed;
+ top: 0px;
+ left: 0px;
+ right: 0px;
+ }
+ 
+#banner2 {
+ background-color: rgba(255,255,255,0.85);
+ border-bottom: 2px solid #023f69;
+ position: fixed;
+ top: 53px;
+ left: 0px;
+ right: 0px;
+}
+
+#banner2innri {
+width: 94%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+.bannerlinkar2 {
+width: 25%;
+float: left;
+color: white;
+font-size: 14px;
+margin-top: 9px;
+margin-bottom: 9px;
+padding-top: 11px;
+padding-bottom: 5px;
+font-family: 'roboto', Arial, sans-serif;
+font-weight: 400;
+letter-spacing: 1px;
+text-align: center;
+background-color: #023f69;
+margin-right: 4%;
+margin-left: 4%;
+}
+
+#lid2:hover, #um2:hover {
+background-color: rgba(2,63,105,0.85);
+}
+ 
+ #midja {
+ width: 1020px;
+ height: auto;
+ margin: auto;
+ }
+ 
+#logo {
+padding-top: 9px;
+padding-bottom: 9px;
+padding-left: 0px;
+height: 35px;
+width: auto;
+float: left;
+}
+
+#logo2 {
+padding-top: 9px;
+padding-bottom: 9px;
+padding-left: 0px;
+height: 35px;
+width: auto;
+float: left;
+display: none;
+}
+
+#bannerlinkarheild {
+float: right;
+}
+
+.bannerlinkar {
+float: left;
+margin-right: 25px;
+color: white;
+font-size: 14px;
+padding: 15px;
+padding-top: 20px;
+padding-bottom: 14px;
+font-family: 'roboto', Arial, sans-serif;
+font-weight: 400;
+letter-spacing: 1px;
+}
+
+#heim {
+background-color: #005fa1;
+}
+
+#skiptailid {
+letter-spacing: 0.5px;
+}
+
+#skiptailid:hover, #um:hover, #lid:hover {
+background-color: #014f84;
+}
+
+#lid {
+display: none;
+}
+
+#admin {
+background-color: #022b49;
+margin-right: 0px;
+font-size: 14px;
+margin-top: 9px;
+padding-top: 8px;
+padding-bottom: 8px;
+color: #d3d3d3;
+font-weight: 700;
+}
+
+#admin2:hover {
+background-color: rgba(2,43,73,0.85);
+}
+
+#admin2 {
+width: 26%;
+background-color: #022b49;
+margin-right: 4%;
+margin-left: 4%;
+font-size: 14px;
+margin-top: 9px;
+padding-top: 8px;
+padding-bottom: 8px;
+color: #d3d3d3;
+font-weight: 700;
+}
+
+#strik {
+display: none;
+margin-right: 0px;
+padding: 0px;
+margin-top: 15px;
+margin-bottom: 0px;
+cursor: pointer;
+}
+
+#strik:hover {
+opacity: 0.7;
+}
+
+#strikmynd {
+height: 23px;
+}
+ 
+ p {
+  font-family: 'Roboto' , Arial, sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+ }
+ 
+ .p2 {
+ font-size: 13px;
+ }
+ 
+ .p2adal {
+ font-size: 13px;
+ float: left;
+ }
+ 
+ .p3 {
+ font-size: 13px;
+ font-weight: 700;
+ }
+ 
+ .p4 {
+ font-weight: bold;
+ letter-spacing: 0.3px;
+ }
+ 
+ #sidaheild {
+ height: auto;
+ width: 1020px;
+ margin: 49px auto 0px auto;
+ }
+ 
+ #boltiheild {
+ height: auto;
+ width: auto;
+ float: left;
+ margin-right: 16px;
+ }
+ 
+.bolti {
+ margin-top: 15px;
+ margin-bottom: 15px;
+ padding: 20px 30px 10px 30px;
+ border: thin solid #d3d3d3;
+ background-color: white;
+ width: 490px;
+ border-radius: 4px;
+}
+
+#stada {
+ margin-top: 15px;
+ margin-bottom: 15px;
+ margin-left: 568px;
+ padding: 20px 30px 25px 30px;
+ border: thin solid #d3d3d3;
+ background-color: white;
+ width: 390px;
+ border-radius: 4px;
+ height: auto;
+ float: left;
+ position: fixed;
+}
+
+.f1 {
+font-size: 22px;
+color: #023f69;
+font-family: 'Roboto', Arial, sans-serif;
+font-weight: 700;
+}
+
+.f2 {
+color: white;
+font-size: 16px;
+font-weight: bold;
+letter-spacing: 0.3px;
+}
+
+.f3 {
+font-size: 22px;
+color: #023f69;
+margin-bottom: 10px;
+font-family: 'Roboto', Arial, sans-serif;
+font-weight: 700;
+}
+
+.s1 {
+font-size: 13px;
+margin-top: 10px;
+}
+
+.dalkur1 {
+width: 215px;
+padding: 7px 10px 7px 10px;
+background-color: #56c000;
+}
+
+.dalkur2 {
+width: 20px;
+}
+
+.dalkur3 {
+padding: 7px 10px 7px 10px;
+background-color: #d81a1a;
+width: 215px;
+}
+
+.tafla1 {
+margin-top: 12px;
+border: none;
+}
+
+.umsogn {
+margin-top: 10px;
+line-height: 19px;
+}
+
+.leikmannalisti {
+color: white;
+font-family: 'Roboto', Arial, sans-serif;
+font-size: 14px;
+}
+
+.hr1 {
+height: 2px;
+border: none;
+background-color: white;
+color: white;
+margin: 3px 0px 3px 0px;
+}
+
+.td1 {
+border-bottom: thin solid #b4b4b4;
+padding-top: 10px;
+padding-bottom: 2px;
+}
+
+.th1 {
+background-color: #d3d3d3;
+padding: 5px;
+border-left: 2px solid white;
+}
+
+.th2 {
+background-color: #d3d3d3;
+padding: 5px;
+border-left: 2px solid white;
+padding-left: 8px;
+}
+
+#tafla2 {
+width: 390px;
+}
+
+#tdid2 {
+padding-left: 10px;
+}
+
+.th3 {
+background-color: #d3d3d3;
+padding: 5px;
+border-left: none;
+}
+
+.hr2 {
+height: 1px;
+border: none;
+background-color: #a0a0a0;
+color: none;
+margin: 0px 0px 7px 0px;
+}
+
+#botn {
+margin-bottom: 10px;
+}
+
+#botntexti {
+text-align: center;
+color: #636363;
+font-size: 14px;
+}
+
+#enginnbolti {
+ margin-top: 15px;
+ margin-bottom: 15px;
+ padding: 20px 30px 20px 30px;
+ border: thin solid #d3d3d3;
+ background-color: white;
+ width: 490px;
+ border-radius: 4px;
+}

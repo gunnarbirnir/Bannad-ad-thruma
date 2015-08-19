@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+ #sidaheild {
+ height: auto;
+ width: 552px;
+ margin: 49px auto 0px auto;
+ }
+ 
+ #boltiheild {
+ height: auto;
+ width: auto;
+ margin-right: 0px;
+ position: absolute;
+ top: 489px;
+ }
+
+#stada {
+ margin-left: 0px;
+ width: 490px;
+ height: auto;
+ position: absolute;
+}
+
+ #midja {
+ width: 100%;
+ }
+ 
+#logo {
+padding-left: 20px;
+}
+
+#bannerlinkarheild {
+float: right;
+}
+
+#admin {
+margin-right: 25px;
+}
+
+#tafla2 {
+width: 490px;
+}
+
+.p2 {
+ font-size: 14px;
+ }
+ 
+ .p3 {
+ font-size: 14px;
+ }
+ 
+ @media screen and (max-width: 750px) {
+ 
+.bannerlinkar {
+margin-right: 10px;
+padding: 12px;
+padding-top: 20px;
+padding-bottom: 14px;
+}
+
+#midja {
+width: 552px;
+height: auto;
+margin: auto;
+}
+
+#logo {
+padding-left: 0px;
+}
+
+#admin {
+margin-right: 0px;
+}
+ 
+ }
+ 
+ @media screen and (max-width: 590px) {
+
+#stada {
+width: 94%;
+padding-left: 5%;
+padding-right: 5%;
+margin-right: 3%;
+margin-left: 3%;
+box-sizing: border-box;
+}
+
+#sidaheild {
+width: 100%;
+}
+
+#tafla2 {
+width: 100%;
+}
+
+#midja {
+width: 92%;
+height: auto;
+margin: auto;
+}
+
+#heim {
+display: none;
+}
+
+#skiptailid {
+display: none;
+}
+
+#lid {
+display: block;
+}
+
+.bolti {
+width: 94%;
+padding-left: 5%;
+padding-right: 5%;
+margin-right: 3%;
+margin-left: 3%;
+box-sizing: border-box;
+}
+ 
+}
+ 
+@media screen and (max-width: 485px) {
+
+
+#maetingdalkur, #sigrardalkur, #tdid3, #tdid4 {
+display: none;
+}
+
+#admin, #um, #lid {
+display: none;
+}
+
+#strik {
+display: block;
+}
+
+.tafla1 {
+width: 100%;
+}
+
+.dalkur1 {
+width: 94%;
+padding-left: 3%;
+padding-right: 3%;
+display: block;
+}
+
+.dalkur2 {
+height: 10px;
+width: 94%;
+padding-left: 3%;
+padding-right: 3%;
+display: block;
+}
+
+.dalkur3 {
+width: 94%;
+padding-left: 3%;
+padding-right: 3%;
+display: block;
+}
+  
+}
+
+@media screen and (max-width: 350px) {
+
+#sidastanafn {
+display: none;
+}
+
+#midja {
+width: 90%;
+}
+
+}
+
+@media screen and (max-width: 300px) {
+
+#logo {
+display: none;
+}
+
+#logo2 {
+display: block;
+}
+
+#midja {
+width: 88%;
+}
+
+.p2 {
+ font-size: 13px;
+ }
+ 
+ .p3 {
+ font-size: 13px;
+ }
+ 
+.bannerlinkar2 {
+width: 28%;
+margin-right: 8%;
+margin-left: 0%;
+}
+
+#admin2 {
+width: 28%;
+margin-right: 0%;
+margin-left: 0%;
+}
+
+}
+
+@media screen and (max-width: 200px) {
+
+#stada {
+display: none;
+}
+
+}

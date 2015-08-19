@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+.boxheild {
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.loginbox {
+width: 100%;
+box-sizing: border-box;
+}
+
+.loginheild {
+padding-left: 0px;
+padding-right: 0px;
+}
+
+#logo2 {
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+#logo1 {
+width: 50%;
+margin-left: 25%;
+margin-right: 25%;
+}
+
+#umsognheild {
+padding-left: 0px;
+padding-right: 0px;
+}
+
+#dagsetningbox {
+width: 100%;
+box-sizing: border-box;
+}
+
+#umsognbox {
+width: 100%;
+box-sizing: border-box;
+height: 200px;
+}
+
+.boxheild2 {
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.boxheild3 {
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.boxheild4 {
+width: 94%;
+padding-left: 5%;
+padding-right: 5%;
+margin-right: 3%;
+margin-left: 3%;
+box-sizing: border-box;
+}
+
+@media screen and (max-width: 485px) {
+
+.tafla1 {
+width: 100%;
+}
+
+.dalkur1 {
+width: 94%;
+padding-left: 3%;
+padding-right: 3%;
+display: block;
+}
+
+.dalkur2 {
+height: 10px;
+width: 94%;
+padding-left: 3%;
+padding-right: 3%;
+display: block;
+}
+
+.dalkur3 {
+width: 94%;
+padding-left: 3%;
+padding-right: 3%;
+display: block;
+}
+
+}
+
+@media screen and (max-width: 300px) {
+
+.nafn3 {
+display: none;
+}
+
+}
+
+@media screen and (max-width: 250px) {
+
+.stadfestatakki {
+width: 70px;
+font-size: 13px;
+}
+
+#takkaboxheild {
+width: 160px;
+}
+
+}
